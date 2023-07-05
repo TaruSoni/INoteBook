@@ -12,6 +12,7 @@ const Noteitem = (props) => {
       </div>
     </div>
   )
+  
 }
 
 export default Noteitem
