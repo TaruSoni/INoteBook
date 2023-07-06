@@ -9,6 +9,7 @@ import Navbar from './component/Navbar';
 import Home from './component/Home';
 import About from './component/About';
 import NoteState from './context/notes/NoteState';
+import Alert from './component/Alert';
 
 
 
@@ -20,13 +21,14 @@ function App() {
     
     <NoteState>
       <Router>
-        <Navbar/>
+        <Navbar />
+        <Alert message={"This is amazing React course"} />
         <div className="container">
 
           <Routes>
-            <Route exact path="/" Component={Home}/>
+            <Route exact path="/" Component={Home} />
             
-            <Route exact path="/about" Component={About}/>
+            <Route exact path="/about" Component={About} />
           </Routes>
 
         </div>
