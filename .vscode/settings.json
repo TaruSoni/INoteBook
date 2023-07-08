@@ -1,4 +1,4 @@
 {
-    "git.autoRepositoryDetection": false,
+    "git.autoRepositoryDetection": true,
     "git.alwaysShowStagedChangesResourceGroup": true
 }
